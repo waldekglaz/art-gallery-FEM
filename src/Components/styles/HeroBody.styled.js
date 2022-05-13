@@ -35,8 +35,16 @@ export const StyledHeroBody = styled.div`
       mix-blend-mode: difference;
     }
   }
-  //   @media (min-width: 1440px) {
-  //     & h1 {
-  //     }
-  //   }
+  @media (min-width: 1440px) {
+    & p {
+      font-size: 1.375rem;
+      line-height: 32px;
+    }
+    & h1 {
+      top: 189px;
+      left: 165px;
+      font-size: 6rem;
+      line-height: 88px;
+    }
+  }
 `;
