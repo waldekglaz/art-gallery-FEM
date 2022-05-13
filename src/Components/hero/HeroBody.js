@@ -17,7 +17,7 @@ const HeroBody = () => {
         out.
       </p>
 
-      <StyledButton to="/location">
+      <StyledButton primary to="/location">
         <span>Our location</span>
         <img src={arrowRightIcon} alt="cos tam cos yam" />
       </StyledButton>

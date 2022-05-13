@@ -22,4 +22,21 @@ export const StyledHeroBody = styled.div`
     width: 339px;
     margin-left: -88px;
   }
+  @media (min-width: 1024px) {
+    margin-left: -120px;
+    margin-top: 150px;
+    & h1 {
+      position: absolute;
+      top: 189px;
+      left: 85px;
+      font-size: 7.617vw;
+      line-height: 8.593vw;
+      color: white;
+      mix-blend-mode: difference;
+    }
+  }
+  //   @media (min-width: 1440px) {
+  //     & h1 {
+  //     }
+  //   }
 `;

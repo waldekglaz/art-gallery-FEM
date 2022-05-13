@@ -1,11 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import arrowRightIcon from "../assets/icon-arrow-right.svg";
+
+import { StyledButton } from "../Components/styles/Button.styled";
 
 const Location = () => {
   return (
     <div>
       <h1>Location</h1>
-      <Link to="/">back to home</Link>
+      <StyledButton to="/">
+        <span>Our location</span>
+        <img src={arrowRightIcon} alt="cos tam cos yam" />
+      </StyledButton>
     </div>
   );
 };
