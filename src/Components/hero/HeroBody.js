@@ -1,6 +1,5 @@
 import React from "react";
 import { StyledHeroBody } from "../styles/HeroBody.styled";
-// import { Link } from "react-router-dom";
 import { StyledButton } from "../styles/Button.styled";
 import arrowRightIcon from "../../assets/icon-arrow-right.svg";
 
@@ -19,7 +18,7 @@ const HeroBody = () => {
 
       <StyledButton primary to="/location">
         <span>Our location</span>
-        <img src={arrowRightIcon} alt="cos tam cos yam" />
+        <img src={arrowRightIcon} alt="button icon" />
       </StyledButton>
     </StyledHeroBody>
   );
