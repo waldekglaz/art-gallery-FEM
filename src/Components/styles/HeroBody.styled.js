@@ -18,4 +18,8 @@ export const StyledHeroBody = styled.div`
     line-height: 28px;
     font-weight: 300;
   }
+  @media (min-width: 768px) {
+    width: 339px;
+    margin-left: -88px;
+  }
 `;

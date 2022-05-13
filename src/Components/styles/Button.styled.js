@@ -14,7 +14,7 @@ export const StyledButton = styled(Link)`
   }
 
   & img {
-    width: 8px;
+    max-width: 8px;
     height: 24px;
     background-color: #d5966c;
     padding: 1.5rem;
