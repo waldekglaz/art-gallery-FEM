@@ -16,4 +16,14 @@ export const StyledMainText = styled.div`
     line-height: 28px;
     font-size: 1.125rem;
   }
+  @media (min-width: 768px) {
+    & h2 {
+      font-size: 6.5104vw;
+      line-height: 5.859vw;
+    }
+    & p {
+      font-size: 2.34375vw;
+      line-height: 3.8593vw;
+    }
+  }
 `;

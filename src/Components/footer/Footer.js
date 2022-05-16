@@ -16,9 +16,9 @@ const Footer = () => {
         <address>99 King Street, Newport, USA.</address>
       </p>
       <div>
-        <SocialIcon src={facebookLogo} />
-        <SocialIcon src={instagramLogo} />
-        <SocialIcon src={twitterLogo} />
+        <SocialIcon src={facebookLogo} href="#" />
+        <SocialIcon src={instagramLogo} href="#" />
+        <SocialIcon src={twitterLogo} href="#" />
       </div>
     </StyledFooter>
   );
