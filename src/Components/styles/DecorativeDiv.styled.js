@@ -7,6 +7,7 @@ export const StyledDecorativeDiv = styled.div`
 
   @media (min-width: 1024px) {
     background-color: black;
-    width: 450px;
+    min-width: 31.25vw;
+    min-height: 55.556vw;
   }
 `;

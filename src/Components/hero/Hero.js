@@ -10,7 +10,7 @@ import { StyledDecorativeDiv } from "../styles/DecorativeDiv.styled";
 const Hero = () => {
   return (
     <StyledHero>
-      <StyledDecorativeDiv>ello</StyledDecorativeDiv>
+      <StyledDecorativeDiv>hg</StyledDecorativeDiv>
       <picture>
         <source srcSet={heroImgPC} media="(min-width: 1024px)" />
         <source srcSet={heroImgTablet} media="(min-width: 768px)" />

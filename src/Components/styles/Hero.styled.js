@@ -8,9 +8,17 @@ export const StyledHero = styled.div`
   }
   @media (min-width: 768px) {
     display: flex;
-    align-items: strech;
+    justify-content: space-between;
+    align-items: center;
     & img {
-      flex-basis: 57%;
+      width: 56.9vw;
+    }
+  }
+  @media (min-width: 1024px) {
+    justify-content: center;
+
+    & img {
+      width: 37.5vw;
     }
   }
 `;

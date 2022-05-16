@@ -19,12 +19,19 @@ export const StyledHeroBody = styled.div`
     font-weight: 300;
   }
   @media (min-width: 768px) {
-    width: 339px;
-    margin-left: -88px;
+    margin-left: -11.45vw;
+    & h1 {
+      font-size: 9.114vw;
+      line-height: 8.4635vw;
+    }
+    & p {
+      font-size: 2.34375vw;
+      line-height: 3.65vw;
+    }
   }
   @media (min-width: 1024px) {
-    margin-left: -120px;
-    margin-top: 150px;
+    margin-left: -7vw;
+    padding: 2rem 4vw 0 0;
     & h1 {
       position: absolute;
       top: 189px;
@@ -34,17 +41,23 @@ export const StyledHeroBody = styled.div`
       color: white;
       mix-blend-mode: difference;
     }
+    & p {
+      font-size: 2.14vw;
+      line-height: 3.125vw;
+    }
   }
   @media (min-width: 1440px) {
-    & p {
-      font-size: 1.375rem;
-      line-height: 32px;
-    }
+    margin: -14vw 0 0 -5vw;
+    padding: 2rem 11.388vw 0 0;
     & h1 {
-      top: 189px;
-      left: 165px;
-      font-size: 6rem;
-      line-height: 88px;
+      top: 13.125vw;
+      left: 11.45833vw;
+      font-size: 6.666vw;
+      line-height: 6.111vw;
+    }
+    & p {
+      font-size: 1.5277vw;
+      line-height: 2.2222vw;
     }
   }
 `;

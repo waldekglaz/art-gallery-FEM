@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledMain = styled.main`
   padding: 0 1rem 7.5rem;
   & .img {
+    width: 100%;
     margin-bottom: 1rem;
     
   }
