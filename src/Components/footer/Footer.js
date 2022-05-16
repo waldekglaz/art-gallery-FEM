@@ -9,13 +9,13 @@ import twitterLogo from "../../assets/icon-twitter.svg";
 const Footer = () => {
   return (
     <StyledFooter>
-      <img src={logo} alt="gallery logo" />
+      <img className="footer__img" src={logo} alt="gallery logo" />
       <p>
         The Modern Art Gallery is free to all visitors and open seven days a
         week from 8am to 9pm. Find us at{" "}
         <address>99 King Street, Newport, USA.</address>
       </p>
-      <div>
+      <div className="flex-container">
         <SocialIcon src={facebookLogo} href="#" />
         <SocialIcon src={instagramLogo} href="#" />
         <SocialIcon src={twitterLogo} href="#" />

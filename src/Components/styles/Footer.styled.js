@@ -16,4 +16,28 @@ export const StyledFooter = styled.footer`
   & .social-icon {
     margin-right: 1.25rem;
   }
+  @media (min-width: 768px) {
+    padding: 7.29166vw 5.078125vw;
+    display: flex;
+    justify-content: centre;
+    align-items: flex-start;
+    & .footer__img {
+      width: 14.3229vw;
+    }
+    & p {
+      margin: 0;
+      font-size: 2.08333vw;
+      line-height: 3.3854vw;
+      padding: 0 17.3177vw 0 8.457vw;
+    }
+    & .flex-container {
+      display: flex;
+      align-items: center;
+    }
+    & .social-icon {
+      width: 2.604vw;
+      margin-left: 2.604vw;
+      margin-right: 0;
+    }
+  }
 `;
