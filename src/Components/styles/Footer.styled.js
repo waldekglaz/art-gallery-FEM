@@ -40,4 +40,17 @@ export const StyledFooter = styled.footer`
       margin-right: 0;
     }
   }
+  @media (min-width: 1024px) {
+    padding: 5.55vw 11.45833vw;
+  }
+  & p {
+    margin: 0;
+    font-size: 1.25vw;
+    line-height: 1.9444vw;
+    padding: 0 9.7222vw 0 8.457vw;
+  }
+  & .social-icon {
+    width: 1.3888vw;
+    margin-left: 1.3888vw;
+  }
 `;
