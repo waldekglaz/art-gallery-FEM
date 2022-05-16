@@ -23,9 +23,7 @@ export const StyledMain = styled.main`
       & .img1{
         width: 51.82vw;
       }
-      // & .text-1 h2{
-      //   padding-right: 3rem
-      // }
+      
       & .img{
         margin-bottom:0;
       }
@@ -35,7 +33,6 @@ export const StyledMain = styled.main`
       & .flex-container-2{
         display: flex;
         justify-content: space-between;
-        
       }
       
       & .img2{
@@ -57,5 +54,25 @@ export const StyledMain = styled.main`
       & .text-2{
         padding: 11.0677vw 4.77604vw;
         margin-top: 5px
+      }
+      @media (min-width: 1024px){
+        padding: 0 11.45833vw 12.5vw;
+        & .text-1{
+          padding-right: 8.68055vw;
+        }
+        & .text-1 h2{
+          padding-right: 2vw;
+        }
+        & .img1{
+          width: 44.09722vw;
+        }
+        & .img2{
+          width: 44.09vw;
+        }
+        & .text-2{
+          padding: 4.51388vw 3.333vw;
+          margin-top: 5px
+        }
+        
       }
 `;

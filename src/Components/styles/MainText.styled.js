@@ -26,4 +26,14 @@ export const StyledMainText = styled.div`
       line-height: 3.8593vw;
     }
   }
+  @media (min-width: 1024px) {
+    & h2 {
+      font-size: 4.166vw;
+      line-height: 4.166vw;
+    }
+    & p {
+      font-size: 1.5277vw;
+      line-height: 2.222vw;
+    }
+  }
 `;
