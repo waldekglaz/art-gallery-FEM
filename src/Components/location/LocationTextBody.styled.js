@@ -49,4 +49,23 @@ export const StyledLocationTextBody = styled.div`
     line-height: 3.64583vw;
     font-size: 2.34375vw;
   }
+  @media (min-width: 1024px) {
+    padding: 7.222vw 11.45833vw 8.88vw;
+    & .title {
+      margin-right: 15.277vw;
+      font-size: 4.8611vw;
+    }
+    & h3 {
+      font-size: 2.5vw;
+    }
+    & p {
+      font-size: 1.5277vw;
+      line-height: 2.222vw;
+    }
+    & .text-content {
+      margin-top: 2.222vw;
+      font-size: 1.5277vw;
+      line-height: 2.222vw;
+    }
+  }
 `;
