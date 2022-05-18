@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const StyledLocationTextBody = styled.div`
   background-color: #151515;
-  padding: 3rem 1rem;
+  padding: 3rem 8.466vw;
   color: #fff;
   & .title {
     color: #fff;
