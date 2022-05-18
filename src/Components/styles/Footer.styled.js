@@ -4,7 +4,7 @@ export const StyledFooter = styled.footer`
   background-color: #151515;
   color: #fff;
   padding: 3rem 2rem;
-  & p {
+  & .footer-text {
     font-family: "Outfit", sans-serif;
     line-height: 26px;
     margin-bottom: 2.375rem;
@@ -24,7 +24,7 @@ export const StyledFooter = styled.footer`
     & .footer__img {
       width: 14.3229vw;
     }
-    & p {
+    & .footer-text {
       margin: 0;
       font-size: 2.08333vw;
       line-height: 3.3854vw;
@@ -43,7 +43,7 @@ export const StyledFooter = styled.footer`
   @media (min-width: 1024px) {
     padding: 5.55vw 11.45833vw;
   }
-  & p {
+  & .footer-text {
     margin: 0;
     font-size: 1.25vw;
     line-height: 1.9444vw;
