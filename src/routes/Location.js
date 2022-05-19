@@ -6,6 +6,7 @@ import { StyledLocation } from "../Components/styles/Location.styled";
 import LocationTextBody from "../Components/location/LocationTextBody";
 import CustomMap from "../Components/map/CustomMap";
 import "./Location.css";
+import logo from "../assets/logo-drk.png";
 
 const Location = () => {
   return (
@@ -16,7 +17,7 @@ const Location = () => {
       </StyledButton>
       <CustomMap />
       <LocationTextBody />
-      <Footer />
+      <Footer logo={logo} theme="orange" />
     </StyledLocation>
   );
 };

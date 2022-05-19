@@ -1,1 +1,4 @@
-
+.social-icon:hover {
+  filter: invert(68%) sepia(12%) saturate(1419%) hue-rotate(341deg)
+    brightness(193%) contrast(90%);
+}

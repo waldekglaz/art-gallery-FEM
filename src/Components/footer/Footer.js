@@ -1,15 +1,14 @@
 import React from "react";
-import logo from "../../assets/logo.png";
 import SocialIcon from "./SocialIcon";
 import { StyledFooter } from "../styles/Footer.styled";
 import facebookLogo from "../../assets/icon-facebook.svg";
 import instagramLogo from "../../assets/icon-instagram.svg";
 import twitterLogo from "../../assets/icon-twitter.svg";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <StyledFooter>
-      <img className="footer__img" src={logo} alt="gallery logo" />
+    <StyledFooter className={props.theme}>
+      <img className="footer__img" src={props.logo} alt="gallery logo" />
       <div className="footer-text">
         The Modern Art Gallery is free to all visitors and open seven days a
         week from 8am to 9pm. Find us at{" "}
