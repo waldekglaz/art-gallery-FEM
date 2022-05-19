@@ -22,7 +22,7 @@ Users should be able to:
 ![](./Screenshot.png)
 
 - Location page
-  ![](./Screenshot.png)
+  ![](./Screenshot-location.png)
 
 ### Links
 
