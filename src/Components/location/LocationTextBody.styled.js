@@ -14,7 +14,7 @@ export const StyledLocationTextBody = styled.div`
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 900;
-    margin: 0;
+    margin: 0 0 1.25rem;
   }
   & p {
     font-family: "Outfit", sans-serif;
@@ -32,23 +32,24 @@ export const StyledLocationTextBody = styled.div`
   @media (min-width: 768px) {
     padding: 11.45833vw 5.078125vw 10.4166vw;
     display: flex;
+    & .title {
+      margin-right: 8.85416vw;
+      font-size: 7.1614vw;
+    }
+    & h3 {
+      font-size: 4.166vw;
+    }
+    & p {
+      font-size: 2.34375vw;
+      line-height: 3.64583vw;
+    }
+    & .text-content {
+      margin-top: 2.604vw;
+      line-height: 3.64583vw;
+      font-size: 2.34375vw;
+    }
   }
-  & .title {
-    margin-right: 8.85416vw;
-    font-size: 7.1614vw;
-  }
-  & h3 {
-    font-size: 4.166vw;
-  }
-  & p {
-    font-size: 2.34375vw;
-    line-height: 3.64583vw;
-  }
-  & .text-content {
-    margin-top: 2.604vw;
-    line-height: 3.64583vw;
-    font-size: 2.34375vw;
-  }
+
   @media (min-width: 1024px) {
     padding: 7.222vw 11.45833vw 8.88vw;
     & .title {
