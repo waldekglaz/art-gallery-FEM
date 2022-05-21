@@ -1,6 +1,6 @@
 # Frontend Mentor - Art Gallery
 
-This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA).
+This is a solution to the [Art Gallery challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA).
 
 ## Table of contents
 
